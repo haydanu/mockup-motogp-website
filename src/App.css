@@ -4,7 +4,6 @@
 
 .App {
   font-family: 'Montserrat', sans-serif;
-  padding: 0 50px;
 }
 
 a.nav-link {
@@ -45,6 +44,24 @@ a.navLink-2.nav-link {
 .sepang-flag {
   position: relative;
   left: 21px;
+}
+
+.bg-2 {
+    padding: 0 50px;
+    background: white;
+    height: 100%;
+}
+
+.newsTitle {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    align-items: flex-end;
+    padding-top: 30px;
+}
+
+.cards{
+  margin-bottom: 50px;
 }
 
 .noneBorder.card {

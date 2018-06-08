@@ -3,12 +3,12 @@ import React from 'react';
 class NewsTitle extends React.Component{
   render(){
     return(
+      <div className='newsTitle'>
       <div>
-      <div>
-        <h1>latest news</h1>
+        <h3>latest news</h3>
         </div>
         <div>
-          <h3>view all news</h3>
+          <h6>view all news</h6>
           </div>
         </div>
     )

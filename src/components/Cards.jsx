@@ -1,60 +1,45 @@
 import React from 'react';
-import { Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button, Row, Col } from 'reactstrap';
+import { Card, CardImg, CardTitle, CardText, CardDeck, CardBody } from 'reactstrap';
+
 
 const Cards = (props) => {
   return (
-    <div>
-
-        <Card className='noneBorder'>
-          <Row>
-            <Col sm='3'>
-        <CardImg top src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+    <div className='cards'>
+    <CardDeck>
+      <Card h-100>
+        <CardImg top width="100%" height="170px" src={require('./images/card-1.jpg')} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Oliveira and KTM back on top</CardTitle>
-          <CardSubtitle>The Portuguese rider secured his and KTM’s first win of the season at the Italian GP</CardSubtitle>
-          <CardText>Miguel Oliveira (Red Bull KTM Ajo) returned to the top step of the podium at the Gran Premio d’Italia Oakley after a fantastic battle with home rider Lorenzo Baldassarri (Pons HP40).
-
-The Portuguese rider won the final three races of the 2017 season, but the start to 2018 has been slightly more difficult than expected, with KTM failing to win in the opening five rounds. However, Oliveira crossed the line 0.184 ahead of fellow Championship rival Baldassarri to secure the Austrian factory’s first victory of 2018.</CardText>
-          <Button>Button</Button>
+          <CardTitle>Honda announces Jorge Lorenzo's two-year MotoGP deal for 2019/2020 !!!!</CardTitle>
+          <hr/>
+          <CardText>Honda has announced Jorge Lorenzo will join Marc Marquez on a two-year deal in its factory MotoGP line-up.</CardText>
         </CardBody>
-      </Col>
-
-  <Col sm='3'>
-        <CardImg top src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+      </Card>
+      <Card>
+        <CardImg top width="100%" height="170px" src={require('./images/card-2.jpg')} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
+          <CardTitle>Dovizioso: Marquez's Mugello crash 'like gold' for MotoGP title bid</CardTitle>
+          <hr/>
+          <CardText>Ducati's Andrea Dovizioso has described MotoGP points leader Marc Marquez's crash in the Italian Grand Prix as being "like gold" for his own title ambitions.</CardText>
         </CardBody>
-      </Col>
-
-
-
-  <Col sm='3'>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+      </Card>
+      <Card>
+        <CardImg top width="100%" height="170px" src={require('./images/card-3.jpg')} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
+          <CardTitle>Ducati MotoGP team opts for Danilo Petrucci as Lorenzo replacement</CardTitle>
+          <hr/>
+          <CardText>Ducati has picked Danilo Petrucci as Honda-bound Jorge Lorenzo's replacement at its factory MotoGP squad for the 2019 season, Autosport has learned.</CardText>
         </CardBody>
-      </Col>
-
-      <Col sm='3'>
-        <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+      </Card>
+      <Card>
+        <CardImg top width="100%" height="170px" src={require('./images/card-4.jpg')} alt="Card image cap" />
         <CardBody>
-          <CardTitle>Card title</CardTitle>
-          <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
+          <CardTitle>Honda makes Pedrosa exit from works MotoGP team for 2019 official</CardTitle>
+          <hr/>
+          <CardText>The Honda MotoGP team has confirmed it will part ways with Dani Pedrosa at the end of the 2018 season.</CardText>
         </CardBody>
-      </Col>
-    </Row>
-</Card>
-
-    </div>
+      </Card>
+    </CardDeck>
+  </div>
   );
 };
 

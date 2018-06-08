@@ -21,12 +21,11 @@ class App extends Component {
       <div className="App container">
 
         <div className='bg-1'>
-
           <NavBar/>
           <SecondNavBar/>
-
           <ContentOne/>
         </div>
+        
         <div className='bg-2'>
           <NewsTitle/>
           <Cards/>
