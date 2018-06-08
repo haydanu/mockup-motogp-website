@@ -39,16 +39,11 @@ getTimeUntil(deadline) {
 
 render(){
   return(
-    <div>
-      <div>
+    <div className='countDown' style={{marginBottom:'10px'}}>
         <span> {this.leading0(this.state.days)}D </span>
-
         <span>{this.leading0(this.state.hours)}H </span>
-
         <span>{this.leading0(this.state.minutes)}M </span>
-
         <span>{this.leading0(this.state.seconds)}S </span>
-      </div>
     </div>
   )
 }

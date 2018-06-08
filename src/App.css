@@ -1,7 +1,56 @@
-.bg-1{
-  background-image: url('./components/images/body-1.jpg');
+#root {
+  background-color: #ac0f36;
+}
+
+.App {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 50px;
+}
+
+a.nav-link {
+  color: #fff;
+}
+
+.topNav {
+  font-size: 11px;
+}
+
+nav.topNav-2.navbar.navbar-expand-md, .collapse.navbar-collapse {
+    align-items: normal;
+}
+
+ul.ml-auto.secondNavLink.navbar-nav {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a.navLink-2.nav-link {
+  margin-right: 40px;
+}
+
+.bg-1 {
+  background-image: url('./components/images/rossi.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+  padding: 0 50px;
+}
+
+.motogp-logo {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.sepang-flag {
+  position: relative;
+  left: 21px;
+}
+
+.noneBorder.card {
+  border: none;
+}
+
+.google-map {
+  height: 350px;
 }

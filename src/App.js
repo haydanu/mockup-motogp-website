@@ -1,35 +1,54 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import './App.css';
 
 import NavBar from './components/Navbar';
 import SecondNavBar from './components/SecondNavBar';
 import ContentOne from './components/ContentOne';
-import ContentTwo from './components/ContentTwo';
+// import CarouselBodyGP from './components/Carousel';
+import NewsTitle from './components/NewsTitle';
+import Cards from './components/Cards';
+import TicketTitle from './components/TicketTitle';
+import BuyTickets from './components/BuyTickets';
+import FooterTitle from './components/FooterTitle';
+import Map from './components/Map';
+import FooterForm from './components/FooterForm';
+import FooterMap from './components/FooterMap';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="App container">
+
         <div className='bg-1'>
-          <NavBar />
-          
-          <ContentOne />
+
+          <NavBar/>
+          <SecondNavBar/>
+
+          <ContentOne/>
         </div>
         <div className='bg-2'>
-          <ContentTwo />
+          <NewsTitle/>
+          <Cards/>
         </div>
         <div className='bg-3'>
-          <h1>NEWS WILL BE HERE</h1>
+          <TicketTitle/>
+          <BuyTickets/>
+          <FooterTitle/>
         </div>
         <div className='bg-4'>
-          <h1> Maps and register form will be here</h1>
+
+            <Map />
+            <FooterForm/>
+            <FooterMap/>
+
         </div>
-      <div className='footer'>
-        <h1>FOOTER WILL BE HERE</h1>
-    </div>
-    <h1 style={{textAlign:'center', color:'red'}}>!!!!! DEADLINE TOMORROW NIGHT !!!!!</h1>
+
+        <div className='footer'>
+          <Footer />
+        </div>
       </div>
-    );
+  );
   }
 }
 
