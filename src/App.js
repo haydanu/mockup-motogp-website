@@ -14,7 +14,7 @@ import CardFooter from './components/CardFooter';
 import NewsTitle from './components/NewsTitle';
 import Cards from './components/Cards';
 import Map from './components/Map';
-import FooterForm from './components/FooterForm';
+import FormFooter from './components/FormFooter';
 
 class App extends Component {
   render() {
@@ -44,7 +44,7 @@ class App extends Component {
       <Element name='link3'>
         <div className='bg-4'>
           <Map/>
-          <FooterForm/>
+          <FormFooter/>
         </div>
       </Element>
 

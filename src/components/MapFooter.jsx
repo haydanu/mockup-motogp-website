@@ -1,6 +1,6 @@
 import React from 'react';
 
-const FooterMap = () => {
+const MapFooter = () => {
   return (<div>
     <div>
       <div>
@@ -27,4 +27,4 @@ const FooterMap = () => {
   </div>);
 }
 
-export default FooterMap;
+export default MapFooter;

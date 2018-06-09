@@ -1,8 +1,8 @@
 import React from 'react';
 import {Button, Form, FormGroup, Label, Input} from 'reactstrap';
-import FooterMap from './FooterMap';
+import MapFooter from './MapFooter';
 
-export default class Example extends React.Component {
+export default class FormFooter extends React.Component {
   constructor() {
     super();
     this.state = {
@@ -73,7 +73,7 @@ export default class Example extends React.Component {
       </div>
 
       <div className='column noHeight'>
-        <FooterMap/>
+        <MapFooter/>
       </div>
     </div>);
   }

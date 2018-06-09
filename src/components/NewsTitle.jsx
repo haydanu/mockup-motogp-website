@@ -1,7 +1,6 @@
 import React from 'react';
 
-class NewsTitle extends React.Component {
-  render() {
+const NewsTitle = () => {
     return (<div className='newsTitle'>
       <div>
         <h3>latest news</h3>
@@ -10,7 +9,6 @@ class NewsTitle extends React.Component {
         <h6>view all news</h6>
       </div>
     </div>)
-  }
 }
 
 export default NewsTitle;

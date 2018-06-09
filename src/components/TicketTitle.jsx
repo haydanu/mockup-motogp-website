@@ -1,7 +1,6 @@
 import React from 'react';
 
-class TicketTitle extends React.Component {
-  render() {
+const TicketTitle = () => {
     return (<div className='ticketTitle'>
       <div>
         <h3>ticket category</h3>
@@ -10,7 +9,6 @@ class TicketTitle extends React.Component {
         <h6>view all category</h6>
       </div>
     </div>)
-  }
 }
 
 export default TicketTitle;

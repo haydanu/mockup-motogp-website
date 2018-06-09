@@ -11,14 +11,12 @@ import {
 import {
   Link,
   Events,
-  animateScroll as scroll,
   scroller
 } from 'react-scroll';
 
 export default class SecondNavBar extends React.Component {
   constructor(props) {
     super(props);
-    this.scrollToTop = this.scrollToTop.bind(this);
     this.toggle = this.toggle.bind(this);
     this.state = {
       isOpen: false
@@ -40,10 +38,6 @@ export default class SecondNavBar extends React.Component {
     this.setState({
       isOpen: !this.state.isOpen
     });
-  }
-
-  scrollToTop() {
-    scroll.scrollToTop();
   }
 
   scrollTo() {
@@ -75,7 +69,7 @@ export default class SecondNavBar extends React.Component {
               </Link>
             </NavItem>
             <NavItem>
-              <NavLink className='navLink-2' href="/lineups">lineups</NavLink>
+              <NavLink className='navLink-2' href="http://www.motogp.com/en/riders/MotoGP">lineups</NavLink>
             </NavItem>
             <NavItem>
               <Link activeClass="active" to="link2" spy={true} smooth={true} duration={500}>
