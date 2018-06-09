@@ -12,7 +12,9 @@ const Cards = (props) => {
   return (<div className='cards'>
     <CardDeck>
       <Card h-100="h-100">
-        <CardImg top="top" width="100%" height="170px" src={require('./images/card-1.jpg')} alt="Card image cap"/>
+        <a href="https://www.autosport.com/motogp/news/136542/honda-announces-lorenzo-twoyear-deal">
+        <CardImg top="top" width="100%" height="170px" src={require('./images/card-1.jpg')} alt="news 1"/>
+        </a>
         <CardBody>
           <CardTitle>Honda announces Jorge Lorenzo's two-year MotoGP deal for 2019/2020 !!!!</CardTitle>
           <hr/>
@@ -20,7 +22,9 @@ const Cards = (props) => {
         </CardBody>
       </Card>
       <Card>
-        <CardImg top="top" width="100%" height="170px" src={require('./images/card-2.jpg')} alt="Card image cap"/>
+        <a href='https://www.autosport.com/motogp/news/136553/dovizioso-marquez-crash-gold-for-title-bid'>
+        <CardImg top="top" width="100%" height="170px" src={require('./images/card-2.jpg')} alt="news 2"/>
+        </a>
         <CardBody>
           <CardTitle>Dovizioso: Marquez's Mugello crash 'like gold' for MotoGP title bid</CardTitle>
           <hr/>
@@ -28,7 +32,9 @@ const Cards = (props) => {
         </CardBody>
       </Card>
       <Card>
-        <CardImg top="top" width="100%" height="170px" src={require('./images/card-3.jpg')} alt="Card image cap"/>
+        <a href='https://www.autosport.com/motogp/news/136541/ducati-picks-petrucci-to-replace-lorenzo'>
+        <CardImg top="top" width="100%" height="170px" src={require('./images/card-3.jpg')} alt="news 3"/>
+        </a>
         <CardBody>
           <CardTitle>Ducati MotoGP team opts for Danilo Petrucci as Lorenzo replacement</CardTitle>
           <hr/>
@@ -36,7 +42,9 @@ const Cards = (props) => {
         </CardBody>
       </Card>
       <Card>
-        <CardImg top="top" width="100%" height="170px" src={require('./images/card-4.jpg')} alt="Card image cap"/>
+        <a href='https://www.autosport.com/motogp/news/136527/honda-makes-pedrosa-exit-official'>
+        <CardImg top="top" width="100%" height="170px" src={require('./images/card-4.jpg')} alt="news 4"/>
+        </a>
         <CardBody>
           <CardTitle>Honda makes Pedrosa exit from works MotoGP team for 2019 official</CardTitle>
           <hr/>
