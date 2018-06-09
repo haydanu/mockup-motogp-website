@@ -1,119 +1,139 @@
 import React from 'react';
+import {Button} from 'reactstrap';
 
 const BuyTickets = () => {
   return (
-    <div className='careers-group'>
+    <div className='row ticketsHeight'>
 
-      <div className='career'>
-        <div className='container career-padding'>
-          <div className='career-title'>
-            <span>Frontend Developer</span>
-          </div>
-          <div className='career-content'>
-            <p>Engineer
-              <span className='circle'>·</span>
-              Fulltime
-              <span className='circle'>·</span>
-              Yogyakarta</p>
-          </div>
+    <div className='column'>
+
+      <div className='ticketBg'>
+        <div className='cardTitle'>
+          <div>MotoGP VIP Village</div>
+          <div>Start from: $1,258.00</div>
         </div>
-        <div>
-          <button className="apply-btn">Apply</button>
+
+        <hr className='noMargin'/>
+
+        <div className='cardBody'>
+          <div className='bodyWidth'>
+            <p>Get special price until December 1st, 2017. Invite your friends to get more change to win free ticktes!</p>
+            <p className='deadline'>Ends October 27th, 2017| 11:00PM</p>
+          </div>
+
+          <div className="apply-btn">
+            <Button color='danger'>buy ticket</Button>
+          </div>
         </div>
       </div>
 
-      <div className='career'>
-        <div className='container career-padding'>
-          <div className='career-title'>
-            <span>Mobile Developer</span>
-          </div>
-          <div className='career-content'>
-            <p>Engineer
-              <span className='circle'>·</span>
-              Fulltime
-              <span className='circle'>·</span>
-              Yogyakarta</p>
-          </div>
+      <div className='ticketBg'>
+        <div className='cardTitle'>
+          <div>Premium Roving</div>
+          <div>Start from: $6,18.00</div>
         </div>
-        <div>
-          <button className="apply-btn">Apply</button>
+
+        <hr className='noMargin'/>
+
+        <div className='cardBody'>
+          <div className='bodyWidth'>
+            <p>Get special price until December 1st, 2017. Invite your friends to get more change to win free ticktes!</p>
+            <p className='deadline'>Ends October 27th, 2017| 11:00PM</p>
+          </div>
+
+          <div className="apply-btn">
+            <Button color='danger'>buy ticket</Button>
+          </div>
         </div>
       </div>
 
-      <div className='career'>
-        <div className='container career-padding'>
-          <div className='career-title'>
-            <span>Backend Developer / Senior Backend developer</span>
-          </div>
-          <div className='career-content'>
-            <p>Engineer
-              <span className='circle'>·</span>
-              Fulltime
-              <span className='circle'>·</span>
-              Yogyakarta</p>
-          </div>
+      <div className='ticketBg'>
+        <div className='cardTitle'>
+          <div>Main Grandstand - Marc Marquez</div>
+          <div>Start from: $90.00</div>
         </div>
-        <div>
-          <button className="apply-btn">Apply</button>
+
+        <hr className='noMargin'/>
+
+        <div className='cardBody'>
+          <div className='bodyWidth'>
+            <p>Get special price until December 1st, 2017. Invite your friends to get more change to win free ticktes!</p>
+            <p className='deadline'>Ends October 27th, 2017| 11:00PM</p>
+          </div>
+
+          <div className="apply-btn">
+            <Button color='danger'>buy ticket</Button>
+          </div>
         </div>
       </div>
 
-      <div className='career'>
-        <div className='container career-padding'>
-          <div className='career-title'>
-            <span>Data Analyst</span>
-          </div>
-          <div className='career-content'>
-            <p>Data
-              <span className='circle'>·</span>
-              Fulltime
-              <span className='circle'>·</span>
-              Jakarta</p>
-          </div>
-        </div>
-        <div>
-          <button className="apply-btn">Apply</button>
-        </div>
-      </div>
+    </div>
 
-      <div className='career'>
-        <div className='container career-padding'>
-          <div className='career-title'>
-            <span>VP/Director of Logistics</span>
-          </div>
-          <div className='career-content'>
-            <p>Logistic
-              <span className='circle'>·</span>
-              Fulltime
-              <span className='circle'>·</span>
-              Jakarta</p>
-          </div>
-        </div>
-        <div>
-          <button className="apply-btn">Apply</button>
-        </div>
-      </div>
+      <div className='column'>
 
-      <div className='career'>
-        <div className='container career-padding'>
-          <div className='career-title'>
-            <span>Logistic Manager</span>
+        <div className='ticketBg'>
+          <div className='cardTitle'>
+            <div>Main Grandstand</div>
+            <div>Start from: $72.00</div>
           </div>
-          <div className='career-content'>
-            <p>Logistic
-              <span className='circle'>·</span>
-              Fulltime
-              <span className='circle'>·</span>
-              Jakarta</p>
-          </div>
-        </div>
-        <div>
-          <button className="apply-btn">Apply</button>
-        </div>
-      </div>
 
+          <hr className='noMargin'/>
+
+            <div className='cardBody'>
+              <div className='bodyWidth'>
+                <p>Get special price until December 1st, 2017. Invite your friends to get more change to win free ticktes!</p>
+                <p className='deadline'>Ends October 27th, 2017| 11:00PM</p>
+              </div>
+
+            <div className="apply-btn">
+              <Button color='danger'>buy ticket</Button>
+            </div>
+          </div>
+        </div>
+
+        <div className='ticketBg'>
+          <div className='cardTitle'>
+            <div>GA - Hillstand</div>
+            <div>Start from: $25.00</div>
+          </div>
+
+          <hr className='noMargin'/>
+
+          <div className='cardBody'>
+            <div className='bodyWidth'>
+              <p>Get special price until December 1st, 2017. Invite your friends to get more change to win free ticktes!</p>
+              <p className='deadline'>Ends October 27th, 2017| 11:00PM</p>
+            </div>
+
+            <div className="apply-btn">
+              <Button color='danger'>buy ticket</Button>
+            </div>
+          </div>
+        </div>
+
+        <div className='ticketBg'>
+          <div className='cardTitle'>
+            <div>GA - Hillstand RIC Racing Team</div>
+            <div>Start from: $14.00</div>
+          </div>
+
+          <hr className='noMargin'/>
+
+          <div className='cardBody'>
+            <div className='bodyWidth'>
+              <p>Get special price until December 1st, 2017. Invite your friends to get more change to win free ticktes!</p>
+              <p className='deadline'>Ends October 27th, 2017| 11:00PM</p>
+            </div>
+
+            <div className="apply-btn">
+              <Button color='danger'>buy ticket</Button>
+            </div>
+          </div>
+        </div>
+
+    </div>
   </div>
-  );
+);
 }
 
 export default BuyTickets;

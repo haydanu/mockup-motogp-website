@@ -3,7 +3,7 @@
 }
 
 .App {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a.nav-link {
@@ -15,7 +15,7 @@ a.nav-link {
 }
 
 nav.topNav-2.navbar.navbar-expand-md, .collapse.navbar-collapse {
-    align-items: normal;
+  align-items: normal;
 }
 
 ul.ml-auto.secondNavLink.navbar-nav {
@@ -46,21 +46,33 @@ a.navLink-2.nav-link {
   left: 21px;
 }
 
-.bg-2 {
-    padding: 0 50px;
-    background: white;
-    height: 100%;
+.bg-2, .bg-3 {
+  padding: 0 50px;
+  background: white;
+  height: 100%;
 }
 
-.newsTitle {
-    display: flex;
-    justify-content: space-between;
-    text-transform: uppercase;
-    align-items: flex-end;
-    padding-top: 30px;
+.bg-3 {
+  background-image: url('./components/images/qatar-race.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
 }
 
-.cards{
+.newsTitle, .ticketTitle {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  align-items: flex-end;
+  padding-top: 30px;
+}
+
+.ticketTitle {
+  color: white;
+}
+
+.cards {
   margin-bottom: 50px;
 }
 
@@ -70,4 +82,73 @@ a.navLink-2.nav-link {
 
 .google-map {
   height: 350px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 370px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cardFooter {
+  padding-bottom: 50px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ticketBg {
+  background-color: white;
+  margin-bottom: 10px;
+  padding: 15px;
+}
+
+.cardTitle, .cardBody {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  align-items: flex-end;
+}
+
+.cardTitle {
+  font-size: 15px;
+}
+
+.cardBody p {
+  letter-spacing: 1px;
+  font-size: 7px;
+  margin-bottom: 2px;
+}
+
+hr.noMargin {
+  margin: 8px 0;
+}
+
+.bodyWidth {
+  width: 60%
+}
+
+.apply-btn {
+  width: 35%;
+  text-align: center;
+}
+
+button.btn.btn-danger {
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 60%;
+}
+
+.deadline {
+  color: blue;
+}
+
+.getInTouch{
+  background-color: white;
 }

@@ -9,7 +9,7 @@ import NewsTitle from './components/NewsTitle';
 import Cards from './components/Cards';
 import TicketTitle from './components/TicketTitle';
 import BuyTickets from './components/BuyTickets';
-import FooterTitle from './components/FooterTitle';
+import CardFooter from './components/CardFooter';
 import Map from './components/Map';
 import FooterForm from './components/FooterForm';
 import FooterMap from './components/FooterMap';
@@ -25,7 +25,7 @@ class App extends Component {
           <SecondNavBar/>
           <ContentOne/>
         </div>
-        
+
         <div className='bg-2'>
           <NewsTitle/>
           <Cards/>
@@ -33,14 +33,12 @@ class App extends Component {
         <div className='bg-3'>
           <TicketTitle/>
           <BuyTickets/>
-          <FooterTitle/>
+          <CardFooter/>
         </div>
         <div className='bg-4'>
-
             <Map />
             <FooterForm/>
             <FooterMap/>
-
         </div>
 
         <div className='footer'>

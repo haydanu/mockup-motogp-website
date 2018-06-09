@@ -4,7 +4,19 @@ import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 export default class Example extends React.Component {
   render() {
     return (
-      <Form>
+      <div className='column'>
+        <Form className='getInTouch'>
+        <div>
+          <h3>Get In Touch</h3>
+          </div>
+
+          <div>
+            <p>Have a question about Ticketing Motogp?
+              Need to talk to customer service?
+              Have a great back to you as soon as we can</p>
+          </div>
+
+
 
         <FormGroup>
           <Label for="exampleEmail">Your Name</Label>
@@ -21,6 +33,7 @@ export default class Example extends React.Component {
 
         <Button>Submit</Button>
       </Form>
+    </div>
     );
   }
 }

@@ -3,7 +3,7 @@ import React from 'react';
 class TicketTitle extends React.Component{
   render(){
     return(
-      <div>
+      <div className='ticketTitle'>
       <div>
         <h1>ticket category</h1>
         </div>
