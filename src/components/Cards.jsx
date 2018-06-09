@@ -1,13 +1,18 @@
 import React from 'react';
-import { Card, CardImg, CardTitle, CardText, CardDeck, CardBody } from 'reactstrap';
-
+import {
+  Card,
+  CardImg,
+  CardTitle,
+  CardText,
+  CardDeck,
+  CardBody
+} from 'reactstrap';
 
 const Cards = (props) => {
-  return (
-    <div className='cards'>
+  return (<div className='cards'>
     <CardDeck>
-      <Card h-100>
-        <CardImg top width="100%" height="170px" src={require('./images/card-1.jpg')} alt="Card image cap" />
+      <Card h-100="h-100">
+        <CardImg top="top" width="100%" height="170px" src={require('./images/card-1.jpg')} alt="Card image cap"/>
         <CardBody>
           <CardTitle>Honda announces Jorge Lorenzo's two-year MotoGP deal for 2019/2020 !!!!</CardTitle>
           <hr/>
@@ -15,7 +20,7 @@ const Cards = (props) => {
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" height="170px" src={require('./images/card-2.jpg')} alt="Card image cap" />
+        <CardImg top="top" width="100%" height="170px" src={require('./images/card-2.jpg')} alt="Card image cap"/>
         <CardBody>
           <CardTitle>Dovizioso: Marquez's Mugello crash 'like gold' for MotoGP title bid</CardTitle>
           <hr/>
@@ -23,7 +28,7 @@ const Cards = (props) => {
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" height="170px" src={require('./images/card-3.jpg')} alt="Card image cap" />
+        <CardImg top="top" width="100%" height="170px" src={require('./images/card-3.jpg')} alt="Card image cap"/>
         <CardBody>
           <CardTitle>Ducati MotoGP team opts for Danilo Petrucci as Lorenzo replacement</CardTitle>
           <hr/>
@@ -31,7 +36,7 @@ const Cards = (props) => {
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" height="170px" src={require('./images/card-4.jpg')} alt="Card image cap" />
+        <CardImg top="top" width="100%" height="170px" src={require('./images/card-4.jpg')} alt="Card image cap"/>
         <CardBody>
           <CardTitle>Honda makes Pedrosa exit from works MotoGP team for 2019 official</CardTitle>
           <hr/>
@@ -39,8 +44,7 @@ const Cards = (props) => {
         </CardBody>
       </Card>
     </CardDeck>
-  </div>
-  );
+  </div>);
 };
 
 export default Cards;

@@ -1,17 +1,15 @@
 import React from 'react';
 
-class TicketTitle extends React.Component{
-  render(){
-    return(
-      <div className='ticketTitle'>
+class TicketTitle extends React.Component {
+  render() {
+    return (<div className='ticketTitle'>
       <div>
-        <h1>ticket category</h1>
-        </div>
-        <div>
-          <h3>view all category</h3>
-          </div>
-        </div>
-    )
+        <h3>ticket category</h3>
+      </div>
+      <div>
+        <h6>view all category</h6>
+      </div>
+    </div>)
   }
 }
 

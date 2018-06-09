@@ -10,8 +10,16 @@ a.nav-link {
   color: #fff;
 }
 
+a.nav-link:hover {
+  color: red;
+}
+
 .topNav {
   font-size: 11px;
+}
+
+.first-navbar {
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav.topNav-2.navbar.navbar-expand-md, .collapse.navbar-collapse {
@@ -97,7 +105,7 @@ button.buyTicketBtn2.btn.btn-secondary {
 }
 
 .bg-4 {
-  height: 580px;
+  height: 610px;
   background-color: white;
 }
 
@@ -173,10 +181,10 @@ button.btn.btn-danger {
   background-color: white;
   position: relative;
   left: 100px;
-  bottom: 400px;
+  bottom: 460px;
   box-shadow: 0px 0px 3px 3px #888;
   width: 75%;
-  padding: 5px 20px;
+  padding: 30px 20px;
 }
 
 input, textarea {
@@ -210,4 +218,32 @@ button {
   padding-top: 25px;
   padding-bottom: 10px;
   text-align: center;
+  color: white;
+}
+
+button.resetField.btn.btn-secondary:hover {
+  text-transform: uppercase;
+}
+
+button.send.btn.btn-secondary {
+  background-color: #ac0f36;
+  color: #fff;
+  text-transform: uppercase;
+  width: 25%;
+}
+
+button.send.btn.btn-secondary:hover {
+  border: 1px solid #ac0f36;
+  background-color: transparent;
+  color: #000;
+}
+
+label {
+  font-weight: bold;
+}
+
+#formSend {
+  outline: 0;
+  border: 0;
+  border-bottom: 1px solid;
 }

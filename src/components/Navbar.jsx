@@ -10,7 +10,6 @@ import {
   DropdownItem } from 'reactstrap';
 
 export default class NavBar extends React.Component {
-
   render() {
     return (
       <div className='first-navbar'>
