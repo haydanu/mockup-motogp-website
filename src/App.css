@@ -46,6 +46,22 @@ a.navLink-2.nav-link {
   left: 21px;
 }
 
+button.buyTicketBtn1.btn.btn-secondary {
+  background-color: #ac0f36;
+  color: white;
+  width: 33%;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+button.buyTicketBtn2.btn.btn-secondary {
+  background-color: #ac0f36;
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 12px;
+}
+
 .bg-2, .bg-3 {
   padding: 0 50px;
   background: white;
@@ -80,8 +96,13 @@ a.navLink-2.nav-link {
   border: none;
 }
 
+.bg-4 {
+  height: 580px;
+  background-color: white;
+}
+
 .google-map {
-  height: 350px;
+  height: 500px;
 }
 
 .column {
@@ -142,13 +163,51 @@ hr.noMargin {
 button.btn.btn-danger {
   text-transform: uppercase;
   font-size: 12px;
-  width: 60%;
 }
 
 .deadline {
   color: blue;
 }
 
-.getInTouch{
+.getInTouch {
   background-color: white;
+  position: relative;
+  left: 100px;
+  bottom: 400px;
+  box-shadow: 0px 0px 3px 3px #888;
+  width: 75%;
+  padding: 5px 20px;
+}
+
+input, textarea {
+  border: 0;
+  border-bottom: solid 1px;
+}
+
+.formBtn {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+button.btn.btn-secondary {
+  border: 0;
+  background: transparent;
+  color: #ac0f36;
+}
+
+button {
+  background-color: #ac0f36;
+  color: white;
+  text-transform: uppercase;
+}
+
+.noHeight {
+  height: 0;
+}
+
+.footer {
+  padding-top: 25px;
+  padding-bottom: 10px;
+  text-align: center;
 }

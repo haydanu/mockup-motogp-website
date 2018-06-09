@@ -22,7 +22,7 @@ const BuyTickets = () => {
           </div>
 
           <div className="apply-btn">
-            <Button color='danger'>buy ticket</Button>
+            <Button className='buyTicketBtn2'>buy ticket</Button>
           </div>
         </div>
       </div>
@@ -42,7 +42,7 @@ const BuyTickets = () => {
           </div>
 
           <div className="apply-btn">
-            <Button color='danger'>buy ticket</Button>
+            <Button className='buyTicketBtn2'>buy ticket</Button>
           </div>
         </div>
       </div>
@@ -62,7 +62,7 @@ const BuyTickets = () => {
           </div>
 
           <div className="apply-btn">
-            <Button color='danger'>buy ticket</Button>
+            <Button className='buyTicketBtn2'>buy ticket</Button>
           </div>
         </div>
       </div>
@@ -86,7 +86,7 @@ const BuyTickets = () => {
               </div>
 
             <div className="apply-btn">
-              <Button color='danger'>buy ticket</Button>
+              <Button className='buyTicketBtn2'>buy ticket</Button>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ const BuyTickets = () => {
             </div>
 
             <div className="apply-btn">
-              <Button color='danger'>buy ticket</Button>
+              <Button className='buyTicketBtn2'>buy ticket</Button>
             </div>
           </div>
         </div>
@@ -126,7 +126,7 @@ const BuyTickets = () => {
             </div>
 
             <div className="apply-btn">
-              <Button color='danger'>buy ticket</Button>
+              <Button className='buyTicketBtn2'>buy ticket</Button>
             </div>
           </div>
         </div>

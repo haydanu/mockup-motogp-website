@@ -36,10 +36,7 @@ class ContentOne extends React.Component {
                 marginBottom: '10px'
               }}>04 - 08 November 2018, 07:30 PM</p>
             <CountDown deadline={this.state.deadline}/>
-            <Button color="danger" style={{
-                marginBottom: '40px',
-                textTransform: 'uppercase'
-              }}>buy tickets</Button>
+            <Button className='buyTicketBtn1'>buy tickets</Button>
           </Col>
         </Row>
     </div>

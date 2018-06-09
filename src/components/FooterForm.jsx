@@ -1,10 +1,13 @@
 import React from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
+import FooterMap from './FooterMap';
+
 
 export default class Example extends React.Component {
   render() {
     return (
-      <div className='column'>
+      <div className='row noHeight'>
+      <div className='column noHeight'>
         <Form className='getInTouch'>
         <div>
           <h3>Get In Touch</h3>
@@ -31,8 +34,16 @@ export default class Example extends React.Component {
           <Input type="textarea" name="text" id="exampleText" />
         </FormGroup>
 
-        <Button>Submit</Button>
+        <div className='formBtn'>
+          <Button>Reset Field</Button>
+          <Button className='send'>Send</Button>
+        </div>
       </Form>
+    </div>
+
+    <div className='column noHeight'>
+      <FooterMap />
+      </div>
     </div>
     );
   }

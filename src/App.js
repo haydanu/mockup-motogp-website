@@ -12,7 +12,6 @@ import BuyTickets from './components/BuyTickets';
 import CardFooter from './components/CardFooter';
 import Map from './components/Map';
 import FooterForm from './components/FooterForm';
-import FooterMap from './components/FooterMap';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -35,10 +34,10 @@ class App extends Component {
           <BuyTickets/>
           <CardFooter/>
         </div>
+
         <div className='bg-4'>
             <Map />
             <FooterForm/>
-            <FooterMap/>
         </div>
 
         <div className='footer'>
