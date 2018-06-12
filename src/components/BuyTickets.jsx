@@ -21,7 +21,12 @@ const BuyTickets = () => {
           </div>
 
           <div className="apply-btn">
-            <Button className='buyTicketBtn2'>buy ticket</Button>
+            <a href='https://sepangcircuit.com/ticketing/2018-shell-malaysia-motorcycle-grand-prix-offici/2018-shell-malaysia-motorcycle-grand-prix-offici'
+              rel='noopener noreferrer' target='_blank'>
+              <Button className='buyTicketBtn2'>
+                  buy ticket
+              </Button>
+            </a>
           </div>
         </div>
       </div>
@@ -41,7 +46,12 @@ const BuyTickets = () => {
           </div>
 
           <div className="apply-btn">
-            <Button className='buyTicketBtn2'>buy ticket</Button>
+            <a href='https://sepangcircuit.com/ticketing/2018-shell-malaysia-motorcycle-grand-prix-offici/2018-shell-malaysia-motorcycle-grand-prix-offici'
+              rel='noopener noreferrer' target='_blank'>
+              <Button className='buyTicketBtn2'>
+                  buy ticket
+              </Button>
+            </a>
           </div>
         </div>
       </div>
@@ -61,7 +71,12 @@ const BuyTickets = () => {
           </div>
 
           <div className="apply-btn">
-            <Button className='buyTicketBtn2'>buy ticket</Button>
+            <a href='https://sepangcircuit.com/ticketing/2018-shell-malaysia-motorcycle-grand-prix-offici/2018-shell-malaysia-motorcycle-grand-prix-offici'
+              rel='noopener noreferrer' target='_blank'>
+              <Button className='buyTicketBtn2'>
+                  buy ticket
+              </Button>
+            </a>
           </div>
         </div>
       </div>
@@ -85,7 +100,12 @@ const BuyTickets = () => {
           </div>
 
           <div className="apply-btn">
-            <Button className='buyTicketBtn2'>buy ticket</Button>
+            <a href='https://sepangcircuit.com/ticketing/2018-shell-malaysia-motorcycle-grand-prix-offici/2018-shell-malaysia-motorcycle-grand-prix-offici'
+              rel='noopener noreferrer' target='_blank'>
+              <Button className='buyTicketBtn2'>
+                  buy ticket
+              </Button>
+            </a>
           </div>
         </div>
       </div>
@@ -105,7 +125,12 @@ const BuyTickets = () => {
           </div>
 
           <div className="apply-btn">
-            <Button className='buyTicketBtn2'>buy ticket</Button>
+            <a href='https://sepangcircuit.com/ticketing/2018-shell-malaysia-motorcycle-grand-prix-offici/2018-shell-malaysia-motorcycle-grand-prix-offici'
+              rel='noopener noreferrer' target='_blank'>
+              <Button className='buyTicketBtn2'>
+                  buy ticket
+              </Button>
+            </a>
           </div>
         </div>
       </div>
@@ -125,7 +150,12 @@ const BuyTickets = () => {
           </div>
 
           <div className="apply-btn">
-            <Button className='buyTicketBtn2'>buy ticket</Button>
+            <a href='https://sepangcircuit.com/ticketing/2018-shell-malaysia-motorcycle-grand-prix-offici/2018-shell-malaysia-motorcycle-grand-prix-offici'
+              rel='noopener noreferrer' target='_blank'>
+              <Button className='buyTicketBtn2'>
+                  buy ticket
+              </Button>
+            </a>
           </div>
         </div>
       </div>

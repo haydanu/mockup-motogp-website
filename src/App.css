@@ -247,3 +247,11 @@ label {
   border: 0;
   border-bottom: 1px solid;
 }
+
+.modal-content {
+  display: flex;
+  height: 110px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+}
